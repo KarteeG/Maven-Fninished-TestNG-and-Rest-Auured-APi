@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Second_Cart {
 
-	public WebDriver driver;
+	private WebDriver driver;
 	@FindBy(xpath = "//a[@class='btn btn-default button button-medium']")
 	private WebElement pr_C;
 

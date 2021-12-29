@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Signin_Page {
 	
-	public WebDriver driver;
+	private WebDriver driver;
 	@FindBy(id="email")
 	private WebElement email;
 	

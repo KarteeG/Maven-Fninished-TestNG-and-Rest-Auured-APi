@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Final_Submit {
-	public WebDriver driver;
+	private WebDriver driver;
 	
 	@FindBy(xpath = "(//button[@type='submit'])[2]")
 	private WebElement fi;

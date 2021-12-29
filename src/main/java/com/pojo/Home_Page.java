@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Home_Page {
 
-	public WebDriver driver;
+	private WebDriver driver;
 	@FindBy(xpath = "//a[text()='Women']")
 	private WebElement t_Shirts;
 

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Fifth_Cart {
 	
-	public WebDriver driver;
+	private WebDriver driver;
 	
 	@FindBy(xpath = "(//button[@type='submit'])[2]")
 	private WebElement ptc;

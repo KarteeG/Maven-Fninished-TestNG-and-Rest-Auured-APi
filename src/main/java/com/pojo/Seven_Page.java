@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Seven_Page {
 	
-	public WebDriver driver;
+	private WebDriver driver;
 	
 	@FindBy(xpath ="//a[@class='bankwire']")
 	private WebElement bank;
